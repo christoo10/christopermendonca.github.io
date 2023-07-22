@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact Us - Restaurant Website</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <img src="c:\\Users\\chris\\Downloads\\rest\\Images\\tastytreats.jpg" alt="Restaurant Logo" id="logo" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="Contact-Us">
+      <h2>Contact Us</h2>
+      <form action="/submit_contact" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <article>
+          <h3>Dinings</h3>
+        </article>
+
+        <article>
+          <ul>
+            <li><a href="#">Make a reservation</a></li>
+            <li><a href="#">Check Menu</a></li>
+            <li><a href="#">Browse Rooms</a></li>
+            <li><a href="#">Facilities</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <ul>
+            <li><a href="#">Tour Guide</a></li>
+            <li><a href="#">Premises</a></li>
+            <li><a href="#">Neighbourhood</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <button class="btn">Sign Me Up</button>
+        </article>
+      </div>
+    </footer>
+  </body>
+</html>
